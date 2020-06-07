@@ -323,7 +323,7 @@ td,
   color: #d7d7d7 !important;
 }
 .letter {
-  width: 75px;
+  width: 50px;
   height: 50px;
   border-radius: 50%;
   background-color: #ffae76;
@@ -350,9 +350,9 @@ td,
   margin-right: 3.5rem;
 }
 .card-img-top {
-  width: 134px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  max-width: 134px;
+  padding-top: 2.3rem;
+  padding-bottom: 2.3rem;
 }
 .fa-arrow-right,
 .carousel-control-prev,
@@ -374,6 +374,37 @@ td,
   left: -9%;
   width: 20px;
   z-index: 8;
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 40%;
+  color: transparent;
+  margin: 1rem;
+}
+.owl-prev {
+  left: -3% !important;
+}
+.owl-next {
+  right: 0% !important;
+}
+.owl-prev::before,
+.owl-next::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #0f5eea;
+  border-radius: 50%;
+  color: white;
+  padding: 1rem;
+}
+.owl-prev::before {
+  content: "\f060" !important;
+}
+.owl-next::before {
+  content: "\f061" !important;
 }
 i.fa-arrow-right {
   color: #fff !important;
@@ -427,7 +458,6 @@ i.fa-arrow-right {
   padding: 17px 55px 19px 20px;
   box-shadow: 0px 2px 4px #0000004d;
   padding-left: 3rem;
-  margin-top: 100rem !important;
 }
 .mb-6 {
   margin-bottom: 4rem;
@@ -471,5 +501,118 @@ i.fa-arrow-right {
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     line-height: 5.5;
+  }
+}
+
+@media (max-width: 575px) {
+  .img-large {
+    width: 300px;
+  }
+  .d-xs-flex {
+    display: flex;
+    justify-content: space-around;
+  }
+  .img-wrapper {
+    width: 60px;
+    height: 60px;
+  }
+  .More5 {
+    font-size: 1rem;
+  }
+  .seller-content {
+    top: 0.4rem;
+    left: 5rem;
+  }
+  .seller-content h6 {
+    font-size: 0.9rem;
+  }
+  .view-content {
+    margin-left: 0.7rem;
+    font-size: 0.9rem;
+  }
+  .view-icon {
+    margin-right: 0.5rem;
+    width: 90px;
+    height: 60px;
+    padding: 0;
+  }
+  .title {
+    margin-top: 1rem;
+  }
+  .key-features ul li::before {
+    left: -1rem !important;
+  }
+  .quantity {
+    margin-left: 0 !important;
+  }
+  .price .d-flex h1 {
+    font-size: 33px;
+  }
+  .discount {
+    font-size: 18px;
+  }
+  .d-24,
+  .emi,
+  .pay-later {
+    margin-bottom: 1rem;
+  }
+  .buy-now,
+  .add__to--cart,
+  .pickup__from--store {
+    margin-bottom: 1.5rem;
+  }
+  .calendar.my-3 {
+    margin: 0;
+  }
+  .m4 {
+    margin: 1rem;
+  }
+  .shipping .justify-content-around {
+    justify-content: normal !important;
+  }
+  .nav-link,
+  td {
+    padding: 0.5rem !important;
+    padding-left: 0.8rem !important;
+  }
+  .letter {
+    width: 50px;
+  }
+  .not-found {
+    padding: 16px 22px;
+  }
+  .blue {
+    font-size: 1.5rem;
+  }
+  .not-found .mb-6 .mr-6 {
+    margin-right: 1.1rem !important;
+  }
+  .request {
+    padding: 16px 22px;
+  }
+  .any-ques {
+    font-size: 1.8rem;
+  }
+  .wa {
+    width: 50px;
+  }
+  .city {
+    padding: auto;
+    text-align: center;
+  }
+  .img-pune,
+  .pune {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  .cities-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .user-feedback {
+    width: 50px;
+    right: 5%;
+    bottom: 5%;
   }
 }
