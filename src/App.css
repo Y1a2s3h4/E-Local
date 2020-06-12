@@ -616,3 +616,62 @@ i.fa-arrow-right {
     bottom: 5%;
   }
 }
+@media (min-width: 576px) and (max-width: 768px) {
+  .d-xs-flex {
+    display: flex;
+    justify-content: space-around;
+  }
+  .img-wrapper {
+    width: 60px;
+    height: 60px;
+  }
+  .More5 {
+    font-size: 1rem;
+  }
+  .seller-content {
+    top: 0;
+  }
+  .key-features ul li::before {
+    left: -1rem !important;
+  }
+  .title {
+    margin-top: 2rem;
+  }
+  .pickup__from--store,
+  .add__to--cart,
+  .buy-now {
+    margin-right: 24px;
+  }
+  .m4 {
+    margin: 1rem;
+  }
+  .shipping .justify-content-around {
+    justify-content: normal !important;
+  }
+  .similar-products h3 {
+    margin-bottom: 4rem;
+  }
+  .not-found {
+    padding: 50px 0;
+  }
+  .city {
+    padding: auto;
+    text-align: center;
+  }
+  .img-pune,
+  .pune {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  .cities-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .user-feedback {
+    position: fixed;
+    right: 90px;
+    bottom: 45px;
+    z-index: 9;
+  }
+}

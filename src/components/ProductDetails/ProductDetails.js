@@ -53,6 +53,8 @@ export default class ProductDetails extends React.Component {
       autoplay: true,
       autoWidth: true,
       responsiveClass: true,
+      center: true,
+      margin: 300,
       responsive: {
         // breakpoint from 0 up
         0: {
@@ -66,7 +68,7 @@ export default class ProductDetails extends React.Component {
         },
         // breakpoint from 768 up
         768: {
-          item: 1,
+          item: 4,
           nav: true,
         },
         1000: {
@@ -87,7 +89,7 @@ export default class ProductDetails extends React.Component {
                 </li>
               </ol>
             </nav>
-            <div className="row mx-md-n5">
+            <div className="row">
               <div className="col-md-6">
                 <div className="row">
                   <div className="col-md-12 d-flex">
@@ -129,7 +131,7 @@ export default class ProductDetails extends React.Component {
                       <h4 className="text-center More5">5 + more</h4>
                     </div>
                   </div>
-                  <div className="col-sm-6">
+                  <div className="col-sm-6 flex-wrap">
                     <img src={Bitmap} className="img-large" alt="" />
                   </div>
                   <br />
