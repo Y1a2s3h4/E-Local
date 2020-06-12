@@ -90,7 +90,7 @@ export default class ProductDetails extends React.Component {
               </ol>
             </nav>
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-6 flex-wrap">
                 <div className="row">
                   <div className="col-md-12 d-flex">
                     <div className="ml-auto">
@@ -156,7 +156,7 @@ export default class ProductDetails extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 flex-wrap">
                 <h5 className="title">
                   OnePlus 7 Pro (Almond, 8GB RAM, 128 GB)
                 </h5>{" "}

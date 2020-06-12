@@ -675,3 +675,147 @@ i.fa-arrow-right {
     z-index: 9;
   }
 }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .img-large {
+    width: 23rem;
+    margin-top: 50%;
+    margin-left: -25%;
+  }
+  .img-wrapper {
+    width: 60px;
+    height: 60px;
+  }
+  .More5 {
+    font-size: 1rem;
+  }
+  .seller-content {
+    top: 0;
+  }
+  .key-features ul li::before {
+    left: -1rem !important;
+  }
+  .title {
+    margin-top: 2rem;
+  }
+  .d-24,
+  .pay-later,
+  .emi {
+    margin-bottom: 24px;
+  }
+  .pickup__from--store,
+  .add__to--cart,
+  .buy-now {
+    margin-right: 24px;
+    margin-bottom: 24px;
+  }
+  .m4 {
+    margin: 1rem;
+  }
+  .shipping .justify-content-around {
+    justify-content: normal !important;
+  }
+  .similar-products h3 {
+    margin-bottom: 4rem;
+  }
+  .not-found {
+    padding: 50px 0;
+  }
+  .city {
+    padding: auto;
+    text-align: center;
+  }
+  .img-pune,
+  .pune {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  .cities-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .user-feedback {
+    position: fixed;
+    right: 90px;
+    bottom: 45px;
+    z-index: 9;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .img-large {
+    width: 27rem;
+    margin-top: 50%;
+    margin-left: -25%;
+  }
+  .img-wrapper {
+    width: 60px;
+    height: 60px;
+  }
+  .More5 {
+    font-size: 1rem;
+  }
+  .seller-content {
+    top: 0;
+  }
+  .key-features ul li::before {
+    left: -1rem !important;
+  }
+  .title {
+    margin-top: 2rem;
+  }
+  .d-24,
+  .pay-later,
+  .emi {
+    margin-bottom: 24px;
+  }
+  .pickup__from--store,
+  .add__to--cart,
+  .buy-now {
+    margin-right: 24px;
+    margin-bottom: 24px;
+  }
+  .m4 {
+    margin: 1rem;
+  }
+  .shipping .justify-content-around {
+    justify-content: normal !important;
+  }
+  .similar-products h3 {
+    margin-bottom: 4rem;
+  }
+  .not-found {
+    padding: 50px 0;
+  }
+  .city {
+    padding: auto;
+    text-align: center;
+  }
+  .img-pune,
+  .pune {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  .cities-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .user-feedback {
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+    z-index: 9;
+  }
+}
+@media (min-width: 1200px) {
+  .img-large {
+    width: 43rem;
+    margin-left: -25% !important;
+  }
+  .m4 {
+    margin: 1rem;
+  }
+  .shipping .justify-content-around {
+    justify-content: normal !important;
+  }
+}
